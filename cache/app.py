@@ -97,3 +97,8 @@ def del_add_cache():
 # delete memorized cache
 def del_pro_cache():
     cache.delete_memoized(add_pro)
+
+
+if __name__ == '__main__':
+    app.run()
+
